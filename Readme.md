@@ -54,7 +54,21 @@ We provide a [Jupyter notebook](./shfl/ddaba.ipynb) in which we set up the entir
 ## Citation
 If you use this dataset, please cite:
 
-*Citation not available yet*.
+```
+@article{RODRIGUEZBARROSO20221,
+title = {Dynamic defense against byzantine poisoning attacks in federated learning},
+journal = {Future Generation Computer Systems},
+volume = {133},
+pages = {1-9},
+year = {2022},
+issn = {0167-739X},
+doi = {https://doi.org/10.1016/j.future.2022.03.003},
+url = {https://www.sciencedirect.com/science/article/pii/S0167739X22000784},
+author = {Nuria Rodríguez-Barroso and Eugenio Martínez-Cámara and M. Victoria Luzón and Francisco Herrera},
+keywords = {Federated learning, Deep learning, Adversarial attacks, Byzantine attacks, Dynamic aggregation operator},
+abstract = {Federated learning, as a distributed learning that conducts the training on the local devices without accessing to the training data, is vulnerable to Byzantine poisoning adversarial attacks. We argue that the federated learning model has to avoid those kind of adversarial attacks through filtering out the adversarial clients by means of the federated aggregation operator. We propose a dynamic federated aggregation operator that dynamically discards those adversarial clients and allows to prevent the corruption of the global learning model. We assess it as a defense against adversarial attacks deploying a deep learning classification model in a federated learning setting on the Fed-EMNIST Digits, Fashion MNIST and CIFAR-10 image datasets. The results show that the dynamic selection of the clients to aggregate enhances the performance of the global learning model and discards the adversarial and poor (with low quality models) clients.}
+}
+```
 
 
 ## Contact
